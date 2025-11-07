@@ -51,6 +51,17 @@ $$
 # OTRO EJERCICIO
 ...
 
+EJERCICIO 1.
+
+$$ A =
+\begin{pmatrix}
+1 & 0 \\
+0 & 1\\
+\end{pmatrix}
+$$ 
+
+Podemos ver que es de tipo cuadrada al contar con el mismo numero de filas y columnas
+2 x 2
 
 
 
