@@ -1,6 +1,6 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## Alumno: Juan José Zapata Buenfil
 ## Actividad \#16 - Matrices doc
 
 ---
@@ -70,6 +70,8 @@ $$ B =
 0 & 0 & 5 \\
 \end{pmatrix}
 $$
+
+B = 
 
 $$ C =
 \begin{pmatrix}
