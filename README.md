@@ -59,11 +59,32 @@ $$ A =
 0 & 1\\
 \end{pmatrix}
 $$ 
-
-Podemos ver que es de tipo cuadrada al contar con el mismo numero de filas y columnas
+A: Podemos ver que es de tipo cuadrada al contar con el mismo numero de filas y columnas
 2 x 2
 
+$$ B =
+\begin{pmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5 \\
+\end{pmatrix}
+$$
 
+$$ C =
+\begin{pmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6 \\
+\end{pmatrix}
+$$
+
+$$ D =
+\begin{pmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6 \\
+\end{pmatrix}
+$$
 
 
 
