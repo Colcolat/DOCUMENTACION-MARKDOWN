@@ -59,6 +59,7 @@ $$ A =
 0 & 1\\
 \end{pmatrix}
 $$ 
+
 A: Podemos ver que es de tipo cuadrada al contar con el mismo numero de filas y columnas
 2 x 2
 
