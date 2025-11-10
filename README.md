@@ -238,7 +238,7 @@ $$
 $$
 
 * **Respuesta:**
-* 
+  
 $$
 \left(\begin{array}{cc}
 16 & 3 \\
@@ -261,6 +261,7 @@ A = \left(\begin{array}{cc}
 $$
 
 * **Respuesta:**
+  
 $$
 A^T = \left(\begin{array}{cc}
 2 & 3 \\
