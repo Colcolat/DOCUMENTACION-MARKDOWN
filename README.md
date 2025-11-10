@@ -28,10 +28,10 @@ El propósito de este documento es registrar y explicar los ejercicios realizado
     $$
   
   2. Procedimiento:
-
-
-
-
+    * Es una matriz de 2x2 (cuadrada).
+    * Los elementos de la diagonal principal son 1.
+    * Los elementos fuera de la diagonal principal son 0.
+       
 
 MUESTRA
 
