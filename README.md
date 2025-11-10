@@ -33,7 +33,7 @@ $$
     3. Los elementos fuera de la diagonal principal son 0.
           
 * **Respuesta:**
-        La matriz A es una Matriz Identidad de tamaño 2x2.  
+        La matriz A es una *Matriz Identidad de tamaño 2x2.*  
     
 ---
 
@@ -52,7 +52,7 @@ $$
     3.  Como solo los valores de la diagonal son algo diferente a 0 se le denomina a esta matriz el tipo diagonal.
 
 * **Respuesta:**
-    La matriz B es una Matriz Diagonal.
+    La matriz B es una *Matriz Diagonal*.
 
 ---
 
@@ -74,7 +74,7 @@ $$
     3.  Dado que los elementos inferiores de la matriz son iguales a los superiores se clasifica como simetrica.
 
 * **Respuesta:**
-    La matriz C es una Matriz Simétrica.
+    La matriz C es una *Matriz Simétrica*.
 
 ---
 
@@ -94,7 +94,7 @@ $$
     4.  La estructura corresponde a una matriz triangular superior.
 
 * **Respuesta:**
-    La matriz D es una Matriz Triangular Superior.
+    La matriz D es una *Matriz Triangular Superior*.
 
 
 ### Ejercicio 2: Operaciones básicas
