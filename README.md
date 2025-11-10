@@ -135,17 +135,35 @@ $$
 #### b) 2A - B 
 
 $$
-2A = 2 \times \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix}
+2A = 2 \times \left(\begin{array}{cc}
+2 & -1 \\
+3 & 4 \\
+\end{array}\right) = \left(\begin{array}{cc}
+4 & -2 \\
+6 & 8 \\
+\end{array}\right)
 $$
 
 $$
-2A - B = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 4-5 & -2-2 \\ 6-(-1) & 8-3 \end{pmatrix}
+2A - B = \left(\begin{array}{cc}
+4 & -2 \\
+6 & 8 \\
+\end{array}\right) - \left(\begin{array}{cc}
+5 & 2 \\
+-1 & 3 \\
+\end{array}\right) = \left(\begin{array}{cc}
+4-5 & -2-2 \\
+6-(-1) & 8-3 \\
+\end{array}\right)
 $$
 
 * **Respuesta:**
   
 $$
-\begin{pmatrix} -1 & -4 \\ 7 & 5 \end{pmatrix}
+\left(\begin{array}{cc}
+-1 & -4 \\
+7 & 5 \\
+\end{array}\right)
 $$
 
 
