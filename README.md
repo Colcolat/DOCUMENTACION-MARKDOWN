@@ -19,7 +19,8 @@ El propósito de este documento es registrar y explicar los ejercicios realizado
 
 * **Proceso/Procedimiento:**
   1. Matriz A:
-
+     
+    $$
     \begin{pmatrix}
     1 & 0 \\
     0 & 1 \\
