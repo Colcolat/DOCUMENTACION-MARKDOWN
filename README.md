@@ -122,10 +122,11 @@ A + B = \left(\begin{array}{cc}
 $$
 
 * **Solución/Respuesta:**
-    $$
-    \left(\begin{array}{cc}
-    7 & 1 \\
-    2 & 7 \\
-    \end{array}\right)
-    $$
+  
+$$
+\left(\begin{array}{cc}
+7 & 1 \\
+2 & 7 \\
+\end{array}\right)
+
 ---
