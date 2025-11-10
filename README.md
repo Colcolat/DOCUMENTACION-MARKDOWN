@@ -247,3 +247,25 @@ $$
 $$
 
 ---
+
+#### e) A^T
+
+* **Procedimiento:**
+  Se mueve la matriz (intercambio de filas por columnas).
+
+$$
+A = \left(\begin{array}{cc}
+2 & -1 \\
+3 & 4 \\
+\end{array}\right)
+$$
+
+* **Respuesta:**
+$$
+A^T = \left(\begin{array}{cc}
+2 & 3 \\
+-1 & 4 \\
+\end{array}\right)
+$$
+
+---
