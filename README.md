@@ -109,16 +109,18 @@ $$
 
 * **Proceso/Procedimiento:**
     Se suman los elementos correspondientes de cada matriz (elemento por elemento).
+  
+$$
+A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
+\quad
+B = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
+$$
+
 $$
 A + B =
 \begin{pmatrix}
-2 & -1 \\
-3 & 4
-\end{pmatrix}
-+
-\begin{pmatrix}
-5 & 2 \\
--1 & 3
+2+5 & -1+2 \\
+3+(-1) & 4+3
 \end{pmatrix}
 =
 \begin{pmatrix}
@@ -128,8 +130,10 @@ A + B =
 $$
 
 * **Solución/Respuesta:**
-    $$
-    A + B = \begin{pmatrix} 7 & 1 \\\\ 2 & 7 \end{pmatrix}
-    $$
-
+$$
+\begin{pmatrix}
+7 & 1 \\
+2 & 7
+\end{pmatrix}
+$$
 ---
