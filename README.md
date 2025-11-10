@@ -78,7 +78,23 @@ $$
 
 ---
 
+#### Matriz D
+$$
+D = \begin{pmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6 \\
+\end{pmatrix}
+$$
 
+* **Procedimiento:**.
+    1.  Se puede ver que es una matriz cuadrada 3x3.
+    2.  Se ve que todos los elementos situados por debajo de la diagonal principal son 0.
+    3.  Los elementos sobre la diagonal principal no son 0.
+    4.  La estructura corresponde a una matriz triangular superior.
+
+* **Respuesta:**
+    La matriz D es una Matriz Triangular Superior.
 
 
 
