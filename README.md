@@ -9,16 +9,28 @@
 El propósito de este documento es registrar y explicar los ejercicios realizados en la Actividad que nos marcó el profesor, enfocada en la identificación, clasificación y operaciones básicas con matrices.
 
 ---
-## Ejercicio 1: Identificación de matrices
 
-### Matriz A.
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+## Ejercicios Realizados
 
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
+### Ejercicio 1: Identificación de matrices
+
+* **Enunciado del Problema :**
+    Identifica el tipo de cada matriz.
+
+* **Proceso/Procedimiento:**
+  1. Matriz A:
+
+    \begin{pmatrix}
+    1 & 0 \\
+    0 & 1 \\
+    \end{pmatrix}
+    $$
+  
+  2. Procedimiento:
+
+
+
+
 
 MUESTRA
 
