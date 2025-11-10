@@ -122,7 +122,10 @@ A + B = \left(\begin{array}{cc}
 $$
 
 * **Solución/Respuesta:**
-| 7  1 |
-| 2  7 |
-
+    $$
+    \left(\begin{array}{cc}
+    7 & 1 \\
+    2 & 7 \\
+    \end{array}\right)
+    $$
 ---
