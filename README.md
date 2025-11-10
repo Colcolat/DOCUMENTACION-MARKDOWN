@@ -121,7 +121,7 @@ A + B = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-* **Solución/Respuesta:**
+* **Respuesta:**
   
 $$
 \left(\begin{array}{cc}
@@ -131,3 +131,18 @@ $$
 $$
 
 ---
+
+#### b) 2A - B 
+
+$$
+2A = 2 \times \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix} = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix}
+$$
+
+$$
+2A - B = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix} - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix} = \begin{pmatrix} 4-5 & -2-2 \\ 6-(-1) & 8-3 \end{pmatrix}
+$$
+
+* **Respuesta:**
+$$
+\begin{pmatrix} -1 & -4 \\ 7 & 5 \end{pmatrix}
+$$
