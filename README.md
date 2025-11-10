@@ -207,3 +207,42 @@ $$
 $$
 
 ---
+
+#### d) BA
+
+* **Procedimiento:**
+  Multiplicación de matrices en orden inverso.
+
+$$
+BA = \left(\begin{array}{cc}
+5 & 2 \\
+-1 & 3 \\
+\end{array}\right) \left(\begin{array}{cc}
+2 & -1 \\
+3 & 4 \\
+\end{array}\right)
+$$
+
+$$
+= \left(\begin{array}{cc}
+(5\times2) + (2\times3) & (5\times-1) + (2\times4) \\
+(-1\times2) + (3\times3) & (-1\times-1) + (3\times4) \\
+\end{array}\right)
+$$
+
+$$
+= \left(\begin{array}{cc}
+10 + 6 & -5 + 8 \\
+-2 + 9 & 1 + 12 \\
+\end{array}\right)
+$$
+
+* **Respuesta:**
+$$
+\left(\begin{array}{cc}
+16 & 3 \\
+7 & 13 \\
+\end{array}\right)
+$$
+
+---
