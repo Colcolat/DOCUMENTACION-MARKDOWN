@@ -18,8 +18,8 @@ El propósito de este documento es registrar y explicar los ejercicios realizado
     Identifica el tipo de cada matriz.
 
 * **Proceso/Procedimiento:**
-  1. Matriz A:
-     
+
+  1. **Matriz A**
     $$
     \begin{pmatrix}
     1 & 0 \\
@@ -28,9 +28,14 @@ El propósito de este documento es registrar y explicar los ejercicios realizado
     $$
   
   2. Procedimiento:
-    * Es una matriz de 2x2 (cuadrada).
-    * Los elementos de la diagonal principal son 1.
-    * Los elementos fuera de la diagonal principal son 0.
+        * Es una matriz de 2x2 (originalmente pensaba que era solo cuadrada).
+        * Los elementos de la diagonal principal son 1.
+        * Los elementos fuera de la diagonal principal son 0.
+          
+  3. Respuesta: 
+        La matriz A es una Matriz Identidad de tamaño 2x2.  
+    
+
        
 
 MUESTRA
