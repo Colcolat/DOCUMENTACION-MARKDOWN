@@ -107,7 +107,7 @@ $$
 
 #### a) A + B
 
-* **Proceso/Procedimiento:**
+* **Procedimiento:**
     Se suman los elementos correspondientes de cada matriz (elemento por elemento).
   
 $$
@@ -166,4 +166,42 @@ $$
 \end{array}\right)
 $$
 
+---
+
+#### c) AB 
+
+* **Procedimiento:**
+  Multiplicación de matrices (fila por columna).
+
+$$
+AB = \left(\begin{array}{cc}
+2 & -1 \\
+3 & 4 \\
+\end{array}\right) \left(\begin{array}{cc}
+5 & 2 \\
+-1 & 3 \\
+\end{array}\right)
+$$
+
+$$
+= \left(\begin{array}{cc}
+(2\times5) + (-1\times-1) & (2\times2) + (-1\times3) \\
+(3\times5) + (4\times-1) & (3\times2) + (4\times3) \\
+\end{array}\right)
+$$
+
+$$
+= \left(\begin{array}{cc}
+10 + 1 & 4 - 3 \\
+15 - 4 & 6 + 12 \\
+\end{array}\right)
+$$
+
+* **Solución/Respuesta:**
+$$
+\left(\begin{array}{cc}
+11 & 1 \\
+11 & 18 \\
+\end{array}\right)
+$$
 
