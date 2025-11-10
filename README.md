@@ -35,7 +35,26 @@ $$
 * **Respuesta:**
         La matriz A es una Matriz Identidad de tamaño 2x2.  
     
+---
 
+#### Matriz B
+$$
+B = \begin{pmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5 \\
+\end{pmatrix}
+$$
+
+* **Procedimiento:**.
+    1.  Se ve que todos los elementos fuera de la diagonal principal (arriba y abajo) son 0.
+    2.  Los elementos en la diagonal principal (3, -2, 5) son distintos de 0.
+    3.  Como solo los valores de la diagonal son algo diferente a 0 se le denomina a esta matriz el tipo diagonal.
+
+* **Respuesta:**
+    La matriz B es una Matriz Diagonal.
+
+---
 
 
 
