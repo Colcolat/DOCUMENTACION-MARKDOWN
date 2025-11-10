@@ -110,14 +110,16 @@ $$
 * **Proceso/Procedimiento:**
     Se suman los elementos correspondientes de cada matriz (elemento por elemento).
   
-A = | 2  -1 |
-    | 3   4 |
-
-B = | 5   2 |
-    | -1  3 |
-
-A + B = | 2+5   -1+2 | = | 7  1 |
-        | 3+(-1) 4+3 |   | 2  7 |
+$$
+A + B = \left(\begin{array}{cc}
+2+5 & -1+2 \\
+3+(-1) & 4+3 \\
+\end{array}\right)
+= \left(\begin{array}{cc}
+7 & 1 \\
+2 & 7 \\
+\end{array}\right)
+$$
 
 * **Solución/Respuesta:**
 | 7  1 |
