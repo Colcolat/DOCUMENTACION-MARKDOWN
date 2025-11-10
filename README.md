@@ -198,6 +198,7 @@ $$
 $$
 
 * **Solución/Respuesta:**
+  
 $$
 \left(\begin{array}{cc}
 11 & 1 \\
@@ -205,3 +206,4 @@ $$
 \end{array}\right)
 $$
 
+---
