@@ -56,6 +56,28 @@ $$
 
 ---
 
+#### Matriz C
+$$
+C = \begin{pmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6 \\
+\end{pmatrix}
+$$
+
+* **Procedimiento:**.
+    1.  Es una matriz de 3x3, por lo tanto es una matriz cuadrada (sin embargo hay algo mas).
+    2.  Se puede notar que todos los elementos tienen un mismo valor en la parte inferior de la tabla
+        * El elemento 1,2 (1) es igual al 2,1 (1).
+        * El elemento 1,3 (4) es igual al 3,1 (4).
+        * El elemento 2,3 (5) es igual al 3,2 (5).
+    3.  Dado que los elementos inferiores de la matriz son iguales a los superiores se clasifica como simetrica.
+
+* **Respuesta:**
+    La matriz C es una Matriz Simétrica.
+
+---
+
 
 
 
