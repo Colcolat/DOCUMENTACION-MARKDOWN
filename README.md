@@ -238,6 +238,7 @@ $$
 $$
 
 * **Respuesta:**
+* 
 $$
 \left(\begin{array}{cc}
 16 & 3 \\
