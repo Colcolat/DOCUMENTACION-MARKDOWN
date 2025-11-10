@@ -28,9 +28,9 @@ A = \begin{pmatrix}
 $$
 
 * **Procedimiento:**
-      1. Es una matriz de 2x2 (originalmente pensaba que era solo cuadrada).
-      2. Los elementos de la diagonal principal son 1.
-      3. Los elementos fuera de la diagonal principal son 0.
+    1. Es una matriz de 2x2 (originalmente pensaba que era solo cuadrada).
+    2. Los elementos de la diagonal principal son 1.
+    3. Los elementos fuera de la diagonal principal son 0.
           
 * **Respuesta:**
         La matriz A es una Matriz Identidad de tamaño 2x2.  
