@@ -288,12 +288,10 @@ AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3
 (1\times2)+(2\times1) & (1\times0)+(2\times3) \\
 (3\times2)+(4\times1) & (3\times0)+(4\times3) 
 \end{pmatrix}
-
 = \begin{pmatrix} 
 2+2 & 0+6 \\
 6+4 & 0+12 
 \end{pmatrix}
-
 = \begin{pmatrix} 
 4 & 6 \\
 10 & 12 
