@@ -96,6 +96,7 @@ $$
 * **Respuesta:**
     La matriz D es una *Matriz Triangular Superior*.
 
+---
 
 ### Ejercicio 2: Operaciones básicas
 
