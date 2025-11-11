@@ -277,7 +277,7 @@ $$
 
 #### Parte 1: Calcular (AB)C
 
-* **Proceso/Procedimiento:**
+* **Procedimiento:**
   Primero se calcula AB, luego multiplicamos el resultado por C.
 
 **Paso 1: AB**
@@ -298,4 +298,74 @@ AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3
 \end{pmatrix}
 $$
 
- 
+**Paso 2: (AB)C**
+
+$$
+(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
+= \begin{pmatrix} 
+(4\times1)+(6\times0) & (4\times1)+(6\times2) \\
+(10\times1)+(12\times0) & (10\times1)+(12\times2) 
+\end{pmatrix}
+= \begin{pmatrix} 
+4+0 & 4+12 \\
+10+0 & 10+24 
+\end{pmatrix}
+= \begin{pmatrix} 
+4 & 16 \\
+10 & 34 
+\end{pmatrix}
+$$
+
+---
+
+#### Parte 2: Calcular A(BC)
+
+* **Procedimiento:**
+  Primero se calcula BC, luego multiplicamos A por el resultado.
+
+**Paso 1: BC**
+
+$$
+BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
+= \begin{pmatrix} 
+(2\times1)+(0\times0) & (2\times1)+(0\times2) \\
+(1\times1)+(3\times0) & (1\times1)+(3\times2) 
+\end{pmatrix}
+= \begin{pmatrix} 
+2+0 & 2+0 \\
+1+0 & 1+6 
+\end{pmatrix}
+= \begin{pmatrix} 
+2 & 2 \\
+1 & 7 
+\end{pmatrix}
+$$
+
+**Paso 2: A(BC)**
+
+$$
+A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
+= \begin{pmatrix} 
+(1\times2)+(2\times1) & (1\times2)+(2\times7) \\
+(3\times2)+(4\times1) & (3\times2)+(4\times7) 
+\end{pmatrix}
+= \begin{pmatrix} 
+2+2 & 2+14 \\
+6+4 & 6+28 
+\end{pmatrix}
+= \begin{pmatrix} 
+4 & 16 \\
+10 & 34 
+\end{pmatrix}
+$$
+
+---
+
+#### Resultado 
+
+
+* **Resultado Obtenido:**
+  $$
+  (AB)C = A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
+  $$
+
