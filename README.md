@@ -102,8 +102,6 @@ $$
 * **Enunciado del Problema:**
     Dadas las matrices, calcula.
 
----
-
 
 #### a) A + B
 
@@ -130,7 +128,7 @@ $$
 \end{array}\right)
 $$
 
----
+
 
 #### b) 2A - B 
 
@@ -166,7 +164,7 @@ $$
 \end{array}\right)
 $$
 
----
+
 
 #### c) AB 
 
@@ -197,7 +195,7 @@ $$
 \end{array}\right)
 $$
 
-* **Solución/Respuesta:**
+* **Respuesta:**
   
 $$
 \left(\begin{array}{cc}
@@ -206,7 +204,7 @@ $$
 \end{array}\right)
 $$
 
----
+
 
 #### d) BA
 
@@ -246,7 +244,7 @@ $$
 \end{array}\right)
 $$
 
----
+
 
 #### e) A^T
 
