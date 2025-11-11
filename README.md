@@ -366,7 +366,10 @@ $$
 
 * **Resultado Obtenido:**
   
-  $$
-  (AB)C = A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-  $$
+$$
+(AB)C = A(BC) = \begin{pmatrix}
+4 & 16 \\
+10 & 34 \end{pmatrix}
+$$
 
+---
