@@ -1,375 +1,43 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Juan José Zapata Buenfil
-## Actividad \#16 - Matrices doc
+## Actividad \#20 - Documentación
 
----
-
-## Objetivo de la Documentación
-El propósito de este documento es registrar y explicar los ejercicios realizados en la Actividad que nos marcó el profesor, enfocada en la identificación, clasificación y operaciones básicas con matrices.
-
----
-
-## Ejercicios Realizados
-
-### Ejercicio 1: Identificación de matrices
-
-* **Enunciado del Problema :**
-    Identifica el tipo de cada matriz.
-  
 --- 
 
-#### Matriz A
-$$
-A = \begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**
-    1. Es una matriz de 2x2 (originalmente pensaba que era solo cuadrada).
-    2. Los elementos de la diagonal principal son 1.
-    3. Los elementos fuera de la diagonal principal son 0.
-          
-* **Respuesta:**
-        La matriz A es una *Matriz Identidad de tamaño 2x2.*  
-    
----
-
-#### Matriz B
-$$
-B = \begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**.
-    1.  Se ve que todos los elementos fuera de la diagonal principal (arriba y abajo) son 0.
-    2.  Los elementos en la diagonal principal (3, -2, 5) son distintos de 0.
-    3.  Como solo los valores de la diagonal son algo diferente a 0 se le denomina a esta matriz el tipo diagonal.
-
-* **Respuesta:**
-    La matriz B es una *Matriz Diagonal*.
+Objetivo: Documentar el excel 
 
 ---
 
-#### Matriz C
-$$
-C = \begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
+Ejemplo de como documentar código:
 
-* **Procedimiento:**.
-    1.  Es una matriz de 3x3, por lo tanto es una matriz cuadrada (sin embargo hay algo mas).
-    2.  Se puede notar que todos los elementos tienen un mismo valor en la parte inferior de la tabla
-        * El elemento 1,2 (1) es igual al 2,1 (1).
-        * El elemento 1,3 (4) es igual al 3,1 (4).
-        * El elemento 2,3 (5) es igual al 3,2 (5).
-    3.  Dado que los elementos inferiores de la matriz son iguales a los superiores se clasifica como simetrica.
+```java
+public class HelloWorld;
+    public static void main (String[] args){
+        System.out.println("Helo World!");
+    }
+```
+```excel
+=TRANSPONER(Kermit!A1:AD30)
+```
 
-* **Respuesta:**
-    La matriz C es una *Matriz Simétrica*.
+ejemplo matriz
 
----
+| | | |
+|---|---|---|
+|1|2|3|
+|a|b|c|
+|x|y|z|
 
-#### Matriz D
-$$
-D = \begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
-$$
-
-* **Procedimiento:**.
-    1.  Se puede ver que es una matriz cuadrada 3x3.
-    2.  Se ve que todos los elementos situados por debajo de la diagonal principal son 0.
-    3.  Los elementos sobre la diagonal principal no son 0.
-    4.  La estructura corresponde a una matriz triangular superior.
-
-* **Respuesta:**
-    La matriz D es una *Matriz Triangular Superior*.
-
----
-
-### Ejercicio 2: Operaciones básicas
-
-* **Enunciado del Problema:**
-    Dadas las matrices, calcula.
-
-
-#### a) A + B
-
-* **Procedimiento:**
-    Se suman los elementos correspondientes de cada matriz (elemento por elemento).
-  
-$$
-A + B = \left(\begin{array}{cc}
-2+5 & -1+2 \\
-3+(-1) & 4+3 \\
-\end{array}\right)
-= \left(\begin{array}{cc}
-7 & 1 \\
-2 & 7 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-7 & 1 \\
-2 & 7 \\
-\end{array}\right)
-$$
+1. Como programar la hoja de excel
+2. Escribir las 5 matrices (30x30)
+3. Documentar la formula de la transpuesta
+4. Documentar la formula de la suma
+5. Documentar la formula de la resta
+6. Documentar la formula de la multiplicación escalar
+7. Documentar la composición
+8. Ser feliz
 
 
 
-#### b) 2A - B 
 
-$$
-2A = 2 \times \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right) = \left(\begin{array}{cc}
-4 & -2 \\
-6 & 8 \\
-\end{array}\right)
-$$
-
-$$
-2A - B = \left(\begin{array}{cc}
-4 & -2 \\
-6 & 8 \\
-\end{array}\right) - \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right) = \left(\begin{array}{cc}
-4-5 & -2-2 \\
-6-(-1) & 8-3 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
--1 & -4 \\
-7 & 5 \\
-\end{array}\right)
-$$
-
-
-
-#### c) AB 
-
-* **Procedimiento:**
-  Multiplicación de matrices (fila por columna).
-
-$$
-AB = \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right) \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-(2\times5) + (-1\times-1) & (2\times2) + (-1\times3) \\
-(3\times5) + (4\times-1) & (3\times2) + (4\times3) \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-10 + 1 & 4 - 3 \\
-15 - 4 & 6 + 12 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-11 & 1 \\
-11 & 18 \\
-\end{array}\right)
-$$
-
-
-
-#### d) BA
-
-* **Procedimiento:**
-  Multiplicación de matrices en orden inverso.
-
-$$
-BA = \left(\begin{array}{cc}
-5 & 2 \\
--1 & 3 \\
-\end{array}\right) \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-(5\times2) + (2\times3) & (5\times-1) + (2\times4) \\
-(-1\times2) + (3\times3) & (-1\times-1) + (3\times4) \\
-\end{array}\right)
-$$
-
-$$
-= \left(\begin{array}{cc}
-10 + 6 & -5 + 8 \\
--2 + 9 & 1 + 12 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-\left(\begin{array}{cc}
-16 & 3 \\
-7 & 13 \\
-\end{array}\right)
-$$
-
-
-
-#### e) A^T
-
-* **Procedimiento:**
-  Se mueve la matriz (intercambio de filas por columnas).
-
-$$
-A = \left(\begin{array}{cc}
-2 & -1 \\
-3 & 4 \\
-\end{array}\right)
-$$
-
-* **Respuesta:**
-  
-$$
-A^T = \left(\begin{array}{cc}
-2 & 3 \\
--1 & 4 \\
-\end{array}\right)
-$$
-
----
-
-#### Ejercicio 3: Multiplicación en cadena
-
-* **Enunciado del Problema:**
-  Dadas las matrices:
-
-#### Parte 1: Calcular (AB)C
-
-* **Procedimiento:**
-  Primero se calcula AB, luego multiplicamos el resultado por C.
-
-**Paso 1: AB**
-
-$$
-AB = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
-= \begin{pmatrix} 
-(1\times2)+(2\times1) & (1\times0)+(2\times3) \\
-(3\times2)+(4\times1) & (3\times0)+(4\times3) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+2 & 0+6 \\
-6+4 & 0+12 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 6 \\
-10 & 12 
-\end{pmatrix}
-$$
-
-**Paso 2: (AB)C**
-
-$$
-(AB)C = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-= \begin{pmatrix} 
-(4\times1)+(6\times0) & (4\times1)+(6\times2) \\
-(10\times1)+(12\times0) & (10\times1)+(12\times2) 
-\end{pmatrix}
-= \begin{pmatrix} 
-4+0 & 4+12 \\
-10+0 & 10+24 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 16 \\
-10 & 34 
-\end{pmatrix}
-$$
-
----
-
-#### Parte 2: Calcular A(BC)
-
-* **Procedimiento:**
-  Primero se calcula BC, luego multiplicamos A por el resultado.
-
-**Paso 1: BC**
-
-$$
-BC = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-= \begin{pmatrix} 
-(2\times1)+(0\times0) & (2\times1)+(0\times2) \\
-(1\times1)+(3\times0) & (1\times1)+(3\times2) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+0 & 2+0 \\
-1+0 & 1+6 
-\end{pmatrix}
-= \begin{pmatrix} 
-2 & 2 \\
-1 & 7 
-\end{pmatrix}
-$$
-
-**Paso 2: A(BC)**
-
-$$
-A(BC) = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
-= \begin{pmatrix} 
-(1\times2)+(2\times1) & (1\times2)+(2\times7) \\
-(3\times2)+(4\times1) & (3\times2)+(4\times7) 
-\end{pmatrix}
-= \begin{pmatrix} 
-2+2 & 2+14 \\
-6+4 & 6+28 
-\end{pmatrix}
-= \begin{pmatrix} 
-4 & 16 \\
-10 & 34 
-\end{pmatrix}
-$$
-
----
-
-#### Resultado 
-
-
-* **Resultado Obtenido:**
-  
-$$
-(AB)C = A(BC) = \begin{pmatrix}
-4 & 16 \\
-10 & 34 \end{pmatrix}
-$$
-
----
